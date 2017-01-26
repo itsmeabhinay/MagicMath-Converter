@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Milli Gram (mg)</key>
+		<dict>
+			<key>Gram (g)</key>
+			<real>0.001</real>
+			<key>Kilo Gram (kg)</key>
+			<real>1e-06</real>
+			<key>Ounce (oz)</key>
+			<real>3.5274e-05</real>
+			<key>Pound (lb)</key>
+			<real>2.2046e-06</real>
+			<key>Ton (ton)</key>
+			<real>1.1023e-09</real>
+		</dict>
+		<key>Gram (g)</key>
+		<dict>
+			<key>Milli Gram (mg)</key>
+			<integer>1000</integer>
+			<key>Kilo Gram (kg)</key>
+			<real>0.001</real>
+			<key>Ounce (oz)</key>
+			<real>0.035274</real>
+			<key>Pound (lb)</key>
+			<real>0.00220462</real>
+			<key>Ton (ton)</key>
+			<real>1.1023e-06</real>
+		</dict>
+		<key>Kilo Gram (kg)</key>
+		<dict>
+			<key>Milli Gram (mg)</key>
+			<real>1000000</real>
+			<key>Gram (g)</key>
+			<integer>1000</integer>
+			<key>Ounce (oz)</key>
+			<real>35.274</real>
+			<key>Pound (lb)</key>
+			<real>2.20462</real>
+			<key>Ton (ton)</key>
+			<real>0.00110231</real>
+		</dict>
+		<key>Ounce (oz)</key>
+		<dict>
+			<key>Milli Gram (mg)</key>
+			<real>28349.5</real>
+			<key>Gram (g)</key>
+			<real>28.3495</real>
+			<key>Kilo Gram (kg)</key>
+			<real>0.0283495</real>
+			<key>Pound (lb)</key>
+			<real>0.0625</real>
+			<key>Ton (ton)</key>
+			<real>3.125e-05</real>
+		</dict>
+		<key>Pound (lb)</key>
+		<dict>
+			<key>Milli Gram (mg)</key>
+			<integer>453592</integer>
+			<key>Gram (g)</key>
+			<real>453.592</real>
+			<key>Kilo Gram (kg)</key>
+			<real>0.453592</real>
+			<key>Ounce (oz)</key>
+			<integer>16</integer>
+			<key>Ton (ton)</key>
+			<real>0.0005</real>
+		</dict>
+		<key>Ton (ton)</key>
+		<dict>
+			<key>Milli Gram (mg)</key>
+			<real>907200000</real>
+			<key>Gram (g)</key>
+			<real>907185</real>
+			<key>Kilo Gram (kg)</key>
+			<real>907.1849999999999</real>
+			<key>Ounce (oz)</key>
+			<real>32000</real>
+			<key>Pound (lb)</key>
+			<integer>2000</integer>
+		</dict>
+	</dict>
+</array>
+</plist>

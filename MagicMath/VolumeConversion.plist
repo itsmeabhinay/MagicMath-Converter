@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Milli Liter (ml)</key>
+		<dict>
+			<key>Liter (l)</key>
+			<real>0.001</real>
+			<key>Liquid Pint (pint)</key>
+			<real>0.00211338</real>
+			<key>Liquid Ounce (oz)</key>
+			<real>0.03381408000000879</real>
+			<key>Liquid Quart (quart)</key>
+			<real>0.001056690000000275</real>
+			<key>Gallon (g)</key>
+			<real>0.0002641725000000687</real>
+		</dict>
+		<key>Liter (l)</key>
+		<dict>
+			<key>Milli Liter (ml)</key>
+			<integer>1000</integer>
+			<key>Liquid Pint (pint)</key>
+			<real>2.11338</real>
+			<key>Liquid Ounce (oz)</key>
+			<real>33.814</real>
+			<key>Liquid Quart (quart)</key>
+			<real>1.05669</real>
+			<key>Gallon (g)</key>
+			<real>0.264172</real>
+		</dict>
+		<key>Liquid Pint (pint)</key>
+		<dict>
+			<key>Milli Liter (ml)</key>
+			<real>473.176</real>
+			<key>Liter (l)</key>
+			<real>0.473176</real>
+			<key>Liquid Ounce (oz)</key>
+			<integer>16</integer>
+			<key>Liquid Quart (quart)</key>
+			<real>0.5</real>
+			<key>Gallon (g)</key>
+			<real>0.125</real>
+		</dict>
+		<key>Liquid Ounce (oz)</key>
+		<dict>
+			<key>Milli Liter (ml)</key>
+			<real>29.5735</real>
+			<key>Liter (l)</key>
+			<real>0.0295735</real>
+			<key>Liquid Pint (pint)</key>
+			<real>0.0625</real>
+			<key>Liquid Quart (quart)</key>
+			<real>0.03125</real>
+			<key>Gallon (g)</key>
+			<real>0.0078125</real>
+		</dict>
+		<key>Liquid Quart (quart)</key>
+		<dict>
+			<key>Milli Liter (ml)</key>
+			<real>946.352000025595</real>
+			<key>Liter (l)</key>
+			<real>0.946353</real>
+			<key>Liquid Pint (pint)</key>
+			<integer>2</integer>
+			<key>Liquid Ounce (oz)</key>
+			<integer>32</integer>
+			<key>Gallon (g)</key>
+			<real>0.25</real>
+		</dict>
+		<key>Gallon (g)</key>
+		<dict>
+			<key>Milli Liter (ml)</key>
+			<real>3785.41</real>
+			<key>Liter (l)</key>
+			<real>3.78541</real>
+			<key>Liquid Pint (pint)</key>
+			<integer>8</integer>
+			<key>Liquid Ounce (oz)</key>
+			<integer>128</integer>
+			<key>Liquid Quart (quart)</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+</array>
+</plist>

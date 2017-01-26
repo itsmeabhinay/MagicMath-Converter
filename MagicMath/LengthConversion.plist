@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Mile (mile)</key>
+		<dict>
+			<key>Foot (ft)</key>
+			<integer>5280</integer>
+			<key>Inches (in)</key>
+			<integer>63360</integer>
+			<key>Millimeter (mm)</key>
+			<integer>1609344</integer>
+			<key>Centimeter (cm)</key>
+			<real>160934.4</real>
+			<key>Meter (m)</key>
+			<real>1609.344</real>
+			<key>Kilometer (Km)</key>
+			<real>1.609344</real>
+		</dict>
+		<key>Kilometer (Km)</key>
+		<dict>
+			<key>Foot (ft)</key>
+			<real>3280.8398</real>
+			<key>Inches (in)</key>
+			<real>39370.0787</real>
+			<key>Millimeter (mm)</key>
+			<integer>1000000</integer>
+			<key>Centimeter (cm)</key>
+			<integer>100000</integer>
+			<key>Meter (m)</key>
+			<integer>1000</integer>
+			<key>Mile (mile)</key>
+			<real>0.6213</real>
+		</dict>
+		<key>Meter (m)</key>
+		<dict>
+			<key>Foot (ft)</key>
+			<real>3.2808</real>
+			<key>Inches (in)</key>
+			<real>39.37007</real>
+			<key>Millimeter (mm)</key>
+			<integer>1000</integer>
+			<key>Centimeter (cm)</key>
+			<integer>100</integer>
+			<key>Kilometer (Km)</key>
+			<real>0.001</real>
+			<key>Mile (mile)</key>
+			<real>0.0006213</real>
+		</dict>
+		<key>Centimeter (cm)</key>
+		<dict>
+			<key>Foot (ft)</key>
+			<real>0.0328</real>
+			<key>Inches (in)</key>
+			<real>0.3937</real>
+			<key>Millimeter (mm)</key>
+			<integer>10</integer>
+			<key>Meter (m)</key>
+			<real>0.01</real>
+			<key>Kilometer (Km)</key>
+			<real>1e-05</real>
+			<key>Mile (mile)</key>
+			<real>6.213e-06</real>
+		</dict>
+		<key>Millimeter (mm)</key>
+		<dict>
+			<key>Foot (ft)</key>
+			<real>0.0032</real>
+			<key>Inches (in)</key>
+			<real>0.03937</real>
+			<key>Centimeter (cm)</key>
+			<real>0.1</real>
+			<key>Meter (m)</key>
+			<real>0.001</real>
+			<key>Kilometer (Km)</key>
+			<real>1e-06</real>
+			<key>Mile (mile)</key>
+			<real>6.213e-07</real>
+		</dict>
+		<key>Inches (in)</key>
+		<dict>
+			<key>Foot (ft)</key>
+			<real>0.083</real>
+			<key>Millimeter (mm)</key>
+			<real>25.4</real>
+			<key>Centimeter (cm)</key>
+			<real>2.54</real>
+			<key>Meter (m)</key>
+			<real>0.0254</real>
+			<key>Kilometer (Km)</key>
+			<real>2.54e-05</real>
+			<key>Mile (mile)</key>
+			<real>1.57e-05</real>
+		</dict>
+		<key>Foot (ft)</key>
+		<dict>
+			<key>Inches (in)</key>
+			<real>12</real>
+			<key>Millimeter (mm)</key>
+			<real>304.8</real>
+			<key>Centimeter (cm)</key>
+			<real>30.48</real>
+			<key>Meter (m)</key>
+			<real>0.3048</real>
+			<key>Kilometer (Km)</key>
+			<real>0.0003048</real>
+			<key>Mile (mile)</key>
+			<real>0.0001893</real>
+		</dict>
+	</dict>
+</array>
+</plist>

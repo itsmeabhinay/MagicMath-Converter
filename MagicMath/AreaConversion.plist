@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Square Foot (Sq ft)</key>
+		<dict>
+			<key>Square Meter (Sq m)</key>
+			<real>0.092903</real>
+			<key>Square Yard (Sq yard)</key>
+			<real>0.111111</real>
+			<key>Square Mile (Sq mile)</key>
+			<real>3.587e-08</real>
+			<key>Acre (acre)</key>
+			<real>2.2957e-05</real>
+			<key>Hectare (hectare)</key>
+			<real>9.2903e-06</real>
+		</dict>
+		<key>Square Meter (Sq m)</key>
+		<dict>
+			<key>Square Foot (Sq ft)</key>
+			<real>10.7639</real>
+			<key>Square Yard (Sq yard)</key>
+			<real>1.19599</real>
+			<key>Square Mile (Sq mile)</key>
+			<real>3.861e-07</real>
+			<key>Acre (acre)</key>
+			<real>0.000247105</real>
+			<key>Hectare (hectare)</key>
+			<real>0.0001</real>
+		</dict>
+		<key>Square Yard (Sq yard)</key>
+		<dict>
+			<key>Square Foot (Sq ft)</key>
+			<integer>9</integer>
+			<key>Square Meter (Sq m)</key>
+			<real>0.836127</real>
+			<key>Square Mile (Sq mile)</key>
+			<real>3.2283e-07</real>
+			<key>Acre (acre)</key>
+			<real>0.000206612</real>
+			<key>Hectare (hectare)</key>
+			<real>8.3613e-05</real>
+		</dict>
+		<key>Square Mile (Sq mile)</key>
+		<dict>
+			<key>Square Foot (Sq ft)</key>
+			<real>27880000</real>
+			<key>Square Meter (Sq m)</key>
+			<real>2590000</real>
+			<key>Square Yard (Sq yard)</key>
+			<real>3098000</real>
+			<key>Acre (acre)</key>
+			<integer>640</integer>
+			<key>Hectare (hectare)</key>
+			<real>258.999</real>
+		</dict>
+		<key>Acre (acre)</key>
+		<dict>
+			<key>Square Foot (Sq ft)</key>
+			<integer>43560</integer>
+			<key>Square Meter (Sq m)</key>
+			<real>4046.86</real>
+			<key>Square Yard (Sq yard)</key>
+			<integer>4840</integer>
+			<key>Square Mile (Sq mile)</key>
+			<real>0.0015625</real>
+			<key>Hectare (hectare)</key>
+			<real>0.404686</real>
+		</dict>
+		<key>Hectare (hectare)</key>
+		<dict>
+			<key>Square Foot (Sq ft)</key>
+			<integer>107639</integer>
+			<key>Square Meter (Sq m)</key>
+			<integer>10000</integer>
+			<key>Square Yard (Sq yard)</key>
+			<real>11959.9</real>
+			<key>Square Mile (Sq mile)</key>
+			<real>0.00386102</real>
+			<key>Acre (acre)</key>
+			<real>2.47105</real>
+		</dict>
+	</dict>
+</array>
+</plist>

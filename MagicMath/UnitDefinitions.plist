@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Length</key>
+	<string>The distance from one end of something to the other end</string>
+	<key>Volume</key>
+	<string>The amount of space that a substance or object occupies, or that is enclosed within a container, especially when great.</string>
+	<key>Weight</key>
+	<string>A body&apos;s relative mass or the quantity of matter contained by it, giving rise to a downward force; the heaviness of a person or thing.</string>
+	<key>Temperature</key>
+	<string>The degree or intensity of heat present in a substance or object, especially as expressed according to a comparative scale and shown by a thermometer.</string>
+	<key>Area</key>
+	<string>The extent or measurement of a surface or piece of land.</string>
+</dict>
+</plist>

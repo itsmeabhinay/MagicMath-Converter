@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C8606D39800C2A2327B0429 /* Pods_MagicMathTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53773F12BF00D1D8B7750D09 /* Pods_MagicMathTests.framework */; };
+		B5E404D2CD3E8C9303051699 /* Pods_MagicMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF92FEB357E32CEE144DA3D /* Pods_MagicMath.framework */; };
+		E552A1D942C965C811FFB926 /* Pods_MagicMathUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B2322B87F10AE9AAB0B869 /* Pods_MagicMathUITests.framework */; };
+		EB4D66501DCADECB00D01D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D664F1DCADECB00D01D7F /* AppDelegate.swift */; };
+		EB4D66551DCADECB00D01D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66531DCADECB00D01D7F /* Main.storyboard */; };
+		EB4D665A1DCADECB00D01D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66581DCADECB00D01D7F /* LaunchScreen.storyboard */; };
+		EB4D66651DCADECB00D01D7F /* MagicMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D66641DCADECB00D01D7F /* MagicMathTests.swift */; };
+		EB4D66701DCADECB00D01D7F /* MagicMathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D666F1DCADECB00D01D7F /* MagicMathUITests.swift */; };
+		EB4D66881DCAE10400D01D7F /* Merkur.otf in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66871DCAE10400D01D7F /* Merkur.otf */; };
+		EB4D668A1DCAE11300D01D7F /* THEROOTS.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66891DCAE11300D01D7F /* THEROOTS.TTF */; };
+		EB4D668D1DCAF42D00D01D7F /* MathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D668C1DCAF42D00D01D7F /* MathViewController.swift */; };
+		EB4D668F1DCAF46D00D01D7F /* UnitsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D668E1DCAF46D00D01D7F /* UnitsListViewController.swift */; };
+		EB4D66911DCB012800D01D7F /* LengthConverterClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D66901DCB012800D01D7F /* LengthConverterClass.swift */; };
+		EB4D66931DCB013F00D01D7F /* VolumeConverterClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D66921DCB013F00D01D7F /* VolumeConverterClass.swift */; };
+		EB4D66951DCB015100D01D7F /* MassConverterClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D66941DCB015100D01D7F /* MassConverterClass.swift */; };
+		EB4D66971DCB016200D01D7F /* TemperatureConverterClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D66961DCB016200D01D7F /* TemperatureConverterClass.swift */; };
+		EB4D66991DCB017600D01D7F /* AreaConverterClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D66981DCB017600D01D7F /* AreaConverterClass.swift */; };
+		EB4D669F1DCC3EE700D01D7F /* UnitDescTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D669D1DCC3EE700D01D7F /* UnitDescTableViewCell.swift */; };
+		EB4D66A01DCC3EE700D01D7F /* UnitDescTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4D669E1DCC3EE700D01D7F /* UnitDescTableViewCell.xib */; };
+		EB4D66A21DCC478F00D01D7F /* Math-art.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66A11DCC478F00D01D7F /* Math-art.jpg */; };
+		EB4D66A81DCC4F4A00D01D7F /* measuring-cup.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66A31DCC4F4A00D01D7F /* measuring-cup.jpeg */; };
+		EB4D66A91DCC4F4A00D01D7F /* groc_scale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66A41DCC4F4A00D01D7F /* groc_scale.jpg */; };
+		EB4D66AA1DCC4F4A00D01D7F /* milli_centi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66A51DCC4F4A00D01D7F /* milli_centi.jpg */; };
+		EB4D66AB1DCC4F4A00D01D7F /* temperature-clipart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66A61DCC4F4A00D01D7F /* temperature-clipart.jpg */; };
+		EB4D66AC1DCC4F4A00D01D7F /* area-of-rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66A71DCC4F4A00D01D7F /* area-of-rectangle.png */; };
+		EB4D66AE1DCC4FD000D01D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66AD1DCC4FD000D01D7F /* Assets.xcassets */; };
+		EB4D66B21DCC54E200D01D7F /* UnitDefinitions.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66B11DCC54E200D01D7F /* UnitDefinitions.plist */; };
+		EB4D66B41DCD2F6A00D01D7F /* LengthConversion.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66B31DCD2F6A00D01D7F /* LengthConversion.plist */; };
+		EB4D66B61DCD45D000D01D7F /* MathAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D66B51DCD45D000D01D7F /* MathAlert.swift */; };
+		EB4D66B81DD5959900D01D7F /* VolumeConversion.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66B71DD5959900D01D7F /* VolumeConversion.plist */; };
+		EB4D66BA1DD5982700D01D7F /* MassConversion.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66B91DD5982700D01D7F /* MassConversion.plist */; };
+		EB4D66BC1DD5983100D01D7F /* TempConversion.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66BB1DD5983100D01D7F /* TempConversion.plist */; };
+		EB4D66BE1DD5984100D01D7F /* AreaConversion.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB4D66BD1DD5984100D01D7F /* AreaConversion.plist */; };
+		EBD3A1C91DD691AE00E34701 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBD3A1C81DD691AE00E34701 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB4D66611DCADECB00D01D7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4D66441DCADECB00D01D7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4D664B1DCADECB00D01D7F;
+			remoteInfo = MagicMath;
+		};
+		EB4D666C1DCADECB00D01D7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4D66441DCADECB00D01D7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4D664B1DCADECB00D01D7F;
+			remoteInfo = MagicMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43641007D8272DE96E5832C5 /* Pods-MagicMathUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicMathUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicMathUITests/Pods-MagicMathUITests.release.xcconfig"; sourceTree = "<group>"; };
+		53406883CCF73D857D74080F /* Pods-MagicMathTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicMathTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicMathTests/Pods-MagicMathTests.release.xcconfig"; sourceTree = "<group>"; };
+		53773F12BF00D1D8B7750D09 /* Pods_MagicMathTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicMathTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F9D19E87E6C98C3681F3F1 /* Pods-MagicMath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicMath.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicMath/Pods-MagicMath.release.xcconfig"; sourceTree = "<group>"; };
+		8DFE1A888EAC7D500C727233 /* Pods-MagicMathTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicMathTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicMathTests/Pods-MagicMathTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B2322B87F10AE9AAB0B869 /* Pods_MagicMathUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicMathUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF92FEB357E32CEE144DA3D /* Pods_MagicMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EB72301DBBBD0F32530E77 /* Pods-MagicMathUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicMathUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicMathUITests/Pods-MagicMathUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E11D70230C384755054FF61F /* Pods-MagicMath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicMath.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicMath/Pods-MagicMath.debug.xcconfig"; sourceTree = "<group>"; };
+		EB4D664C1DCADECB00D01D7F /* MagicMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4D664F1DCADECB00D01D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB4D66541DCADECB00D01D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB4D66591DCADECB00D01D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB4D665B1DCADECB00D01D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4D66601DCADECB00D01D7F /* MagicMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4D66641DCADECB00D01D7F /* MagicMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicMathTests.swift; sourceTree = "<group>"; };
+		EB4D66661DCADECB00D01D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4D666B1DCADECB00D01D7F /* MagicMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4D666F1DCADECB00D01D7F /* MagicMathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicMathUITests.swift; sourceTree = "<group>"; };
+		EB4D66711DCADECB00D01D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4D66871DCAE10400D01D7F /* Merkur.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Merkur.otf; path = ../Merkur.otf; sourceTree = "<group>"; };
+		EB4D66891DCAE11300D01D7F /* THEROOTS.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = THEROOTS.TTF; path = ../THEROOTS.TTF; sourceTree = "<group>"; };
+		EB4D668C1DCAF42D00D01D7F /* MathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathViewController.swift; sourceTree = "<group>"; };
+		EB4D668E1DCAF46D00D01D7F /* UnitsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitsListViewController.swift; sourceTree = "<group>"; };
+		EB4D66901DCB012800D01D7F /* LengthConverterClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LengthConverterClass.swift; sourceTree = "<group>"; };
+		EB4D66921DCB013F00D01D7F /* VolumeConverterClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeConverterClass.swift; sourceTree = "<group>"; };
+		EB4D66941DCB015100D01D7F /* MassConverterClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MassConverterClass.swift; sourceTree = "<group>"; };
+		EB4D66961DCB016200D01D7F /* TemperatureConverterClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureConverterClass.swift; sourceTree = "<group>"; };
+		EB4D66981DCB017600D01D7F /* AreaConverterClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaConverterClass.swift; sourceTree = "<group>"; };
+		EB4D669D1DCC3EE700D01D7F /* UnitDescTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitDescTableViewCell.swift; sourceTree = "<group>"; };
+		EB4D669E1DCC3EE700D01D7F /* UnitDescTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnitDescTableViewCell.xib; sourceTree = "<group>"; };
+		EB4D66A11DCC478F00D01D7F /* Math-art.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Math-art.jpg"; sourceTree = "<group>"; };
+		EB4D66A31DCC4F4A00D01D7F /* measuring-cup.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "measuring-cup.jpeg"; sourceTree = "<group>"; };
+		EB4D66A41DCC4F4A00D01D7F /* groc_scale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = groc_scale.jpg; sourceTree = "<group>"; };
+		EB4D66A51DCC4F4A00D01D7F /* milli_centi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = milli_centi.jpg; sourceTree = "<group>"; };
+		EB4D66A61DCC4F4A00D01D7F /* temperature-clipart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "temperature-clipart.jpg"; sourceTree = "<group>"; };
+		EB4D66A71DCC4F4A00D01D7F /* area-of-rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "area-of-rectangle.png"; sourceTree = "<group>"; };
+		EB4D66AD1DCC4FD000D01D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB4D66B11DCC54E200D01D7F /* UnitDefinitions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UnitDefinitions.plist; sourceTree = "<group>"; };
+		EB4D66B31DCD2F6A00D01D7F /* LengthConversion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LengthConversion.plist; sourceTree = "<group>"; };
+		EB4D66B51DCD45D000D01D7F /* MathAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathAlert.swift; sourceTree = "<group>"; };
+		EB4D66B71DD5959900D01D7F /* VolumeConversion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VolumeConversion.plist; sourceTree = "<group>"; };
+		EB4D66B91DD5982700D01D7F /* MassConversion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MassConversion.plist; sourceTree = "<group>"; };
+		EB4D66BB1DD5983100D01D7F /* TempConversion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TempConversion.plist; sourceTree = "<group>"; };
+		EB4D66BD1DD5984100D01D7F /* AreaConversion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AreaConversion.plist; sourceTree = "<group>"; };
+		EBD3A1C81DD691AE00E34701 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EBD3A1CA1DD6928100E34701 /* MagicMath-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MagicMath-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4D66491DCADECB00D01D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E404D2CD3E8C9303051699 /* Pods_MagicMath.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4D665D1DCADECB00D01D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8606D39800C2A2327B0429 /* Pods_MagicMathTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4D66681DCADECB00D01D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E552A1D942C965C811FFB926 /* Pods_MagicMathUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F0E9C2DE94E81D10D57A4BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF92FEB357E32CEE144DA3D /* Pods_MagicMath.framework */,
+				53773F12BF00D1D8B7750D09 /* Pods_MagicMathTests.framework */,
+				B7B2322B87F10AE9AAB0B869 /* Pods_MagicMathUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B637735630464D4D12DDBD01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E11D70230C384755054FF61F /* Pods-MagicMath.debug.xcconfig */,
+				88F9D19E87E6C98C3681F3F1 /* Pods-MagicMath.release.xcconfig */,
+				8DFE1A888EAC7D500C727233 /* Pods-MagicMathTests.debug.xcconfig */,
+				53406883CCF73D857D74080F /* Pods-MagicMathTests.release.xcconfig */,
+				D0EB72301DBBBD0F32530E77 /* Pods-MagicMathUITests.debug.xcconfig */,
+				43641007D8272DE96E5832C5 /* Pods-MagicMathUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB4D66431DCADECB00D01D7F = {
+			isa = PBXGroup;
+			children = (
+				EB4D664E1DCADECB00D01D7F /* MagicMath */,
+				EB4D66631DCADECB00D01D7F /* MagicMathTests */,
+				EB4D666E1DCADECB00D01D7F /* MagicMathUITests */,
+				EB4D664D1DCADECB00D01D7F /* Products */,
+				B637735630464D4D12DDBD01 /* Pods */,
+				2F0E9C2DE94E81D10D57A4BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4D664D1DCADECB00D01D7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D664C1DCADECB00D01D7F /* MagicMath.app */,
+				EB4D66601DCADECB00D01D7F /* MagicMathTests.xctest */,
+				EB4D666B1DCADECB00D01D7F /* MagicMathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4D664E1DCADECB00D01D7F /* MagicMath */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D66AD1DCC4FD000D01D7F /* Assets.xcassets */,
+				EB4D669C1DCC3EC100D01D7F /* TableViewCells */,
+				EB4D669A1DCB17BE00D01D7F /* Math Classes */,
+				EB4D668B1DCAE16800D01D7F /* Supporting Files */,
+				EB4D664F1DCADECB00D01D7F /* AppDelegate.swift */,
+				EB4D668E1DCAF46D00D01D7F /* UnitsListViewController.swift */,
+				EB4D668C1DCAF42D00D01D7F /* MathViewController.swift */,
+				EB4D66B51DCD45D000D01D7F /* MathAlert.swift */,
+				EB4D66531DCADECB00D01D7F /* Main.storyboard */,
+				EB4D66581DCADECB00D01D7F /* LaunchScreen.storyboard */,
+				EB4D665B1DCADECB00D01D7F /* Info.plist */,
+			);
+			path = MagicMath;
+			sourceTree = "<group>";
+		};
+		EB4D66631DCADECB00D01D7F /* MagicMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D66641DCADECB00D01D7F /* MagicMathTests.swift */,
+				EB4D66661DCADECB00D01D7F /* Info.plist */,
+			);
+			path = MagicMathTests;
+			sourceTree = "<group>";
+		};
+		EB4D666E1DCADECB00D01D7F /* MagicMathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D666F1DCADECB00D01D7F /* MagicMathUITests.swift */,
+				EB4D66711DCADECB00D01D7F /* Info.plist */,
+			);
+			path = MagicMathUITests;
+			sourceTree = "<group>";
+		};
+		EB4D668B1DCAE16800D01D7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD3A1CA1DD6928100E34701 /* MagicMath-Bridging-Header.h */,
+				EBD3A1C81DD691AE00E34701 /* GoogleService-Info.plist */,
+				EB4D66B11DCC54E200D01D7F /* UnitDefinitions.plist */,
+				EB4D66A31DCC4F4A00D01D7F /* measuring-cup.jpeg */,
+				EB4D66A41DCC4F4A00D01D7F /* groc_scale.jpg */,
+				EB4D66A51DCC4F4A00D01D7F /* milli_centi.jpg */,
+				EB4D66A61DCC4F4A00D01D7F /* temperature-clipart.jpg */,
+				EB4D66A71DCC4F4A00D01D7F /* area-of-rectangle.png */,
+				EB4D66A11DCC478F00D01D7F /* Math-art.jpg */,
+				EB4D66891DCAE11300D01D7F /* THEROOTS.TTF */,
+				EB4D66871DCAE10400D01D7F /* Merkur.otf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB4D669A1DCB17BE00D01D7F /* Math Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D66B31DCD2F6A00D01D7F /* LengthConversion.plist */,
+				EB4D66B71DD5959900D01D7F /* VolumeConversion.plist */,
+				EB4D66B91DD5982700D01D7F /* MassConversion.plist */,
+				EB4D66BB1DD5983100D01D7F /* TempConversion.plist */,
+				EB4D66BD1DD5984100D01D7F /* AreaConversion.plist */,
+				EB4D66901DCB012800D01D7F /* LengthConverterClass.swift */,
+				EB4D66921DCB013F00D01D7F /* VolumeConverterClass.swift */,
+				EB4D66941DCB015100D01D7F /* MassConverterClass.swift */,
+				EB4D66961DCB016200D01D7F /* TemperatureConverterClass.swift */,
+				EB4D66981DCB017600D01D7F /* AreaConverterClass.swift */,
+			);
+			name = "Math Classes";
+			sourceTree = "<group>";
+		};
+		EB4D669C1DCC3EC100D01D7F /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D669D1DCC3EE700D01D7F /* UnitDescTableViewCell.swift */,
+				EB4D669E1DCC3EE700D01D7F /* UnitDescTableViewCell.xib */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4D664B1DCADECB00D01D7F /* MagicMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4D66741DCADECB00D01D7F /* Build configuration list for PBXNativeTarget "MagicMath" */;
+			buildPhases = (
+				69EE7BFF764AFC11F11D0CE7 /* [CP] Check Pods Manifest.lock */,
+				EB4D66481DCADECB00D01D7F /* Sources */,
+				EB4D66491DCADECB00D01D7F /* Frameworks */,
+				EB4D664A1DCADECB00D01D7F /* Resources */,
+				BF5EC81EADC47D4A49083F05 /* [CP] Embed Pods Frameworks */,
+				373E446ACA49D03B22BA6F7A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicMath;
+			productName = MagicMath;
+			productReference = EB4D664C1DCADECB00D01D7F /* MagicMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB4D665F1DCADECB00D01D7F /* MagicMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4D66771DCADECB00D01D7F /* Build configuration list for PBXNativeTarget "MagicMathTests" */;
+			buildPhases = (
+				B38D43B347EFC799272A19FE /* [CP] Check Pods Manifest.lock */,
+				EB4D665C1DCADECB00D01D7F /* Sources */,
+				EB4D665D1DCADECB00D01D7F /* Frameworks */,
+				EB4D665E1DCADECB00D01D7F /* Resources */,
+				728843A9ACCE18F91362BB6E /* [CP] Embed Pods Frameworks */,
+				F80F542B0ADA13295E250986 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4D66621DCADECB00D01D7F /* PBXTargetDependency */,
+			);
+			name = MagicMathTests;
+			productName = MagicMathTests;
+			productReference = EB4D66601DCADECB00D01D7F /* MagicMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB4D666A1DCADECB00D01D7F /* MagicMathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4D667A1DCADECB00D01D7F /* Build configuration list for PBXNativeTarget "MagicMathUITests" */;
+			buildPhases = (
+				F7613FF566C18D3C524B9BD0 /* [CP] Check Pods Manifest.lock */,
+				EB4D66671DCADECB00D01D7F /* Sources */,
+				EB4D66681DCADECB00D01D7F /* Frameworks */,
+				EB4D66691DCADECB00D01D7F /* Resources */,
+				E1916FF389CD6940D1127B0B /* [CP] Embed Pods Frameworks */,
+				0EAF2D78CD1A6DE1BBCA1B35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4D666D1DCADECB00D01D7F /* PBXTargetDependency */,
+			);
+			name = MagicMathUITests;
+			productName = MagicMathUITests;
+			productReference = EB4D666B1DCADECB00D01D7F /* MagicMathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB4D66441DCADECB00D01D7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Home;
+				TargetAttributes = {
+					EB4D664B1DCADECB00D01D7F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YQ6FL9W5XL;
+						ProvisioningStyle = Automatic;
+					};
+					EB4D665F1DCADECB00D01D7F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YQ6FL9W5XL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB4D664B1DCADECB00D01D7F;
+					};
+					EB4D666A1DCADECB00D01D7F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YQ6FL9W5XL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB4D664B1DCADECB00D01D7F;
+					};
+				};
+			};
+			buildConfigurationList = EB4D66471DCADECB00D01D7F /* Build configuration list for PBXProject "MagicMath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB4D66431DCADECB00D01D7F;
+			productRefGroup = EB4D664D1DCADECB00D01D7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4D664B1DCADECB00D01D7F /* MagicMath */,
+				EB4D665F1DCADECB00D01D7F /* MagicMathTests */,
+				EB4D666A1DCADECB00D01D7F /* MagicMathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4D664A1DCADECB00D01D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4D668A1DCAE11300D01D7F /* THEROOTS.TTF in Resources */,
+				EB4D66BC1DD5983100D01D7F /* TempConversion.plist in Resources */,
+				EB4D665A1DCADECB00D01D7F /* LaunchScreen.storyboard in Resources */,
+				EB4D66B41DCD2F6A00D01D7F /* LengthConversion.plist in Resources */,
+				EB4D66A91DCC4F4A00D01D7F /* groc_scale.jpg in Resources */,
+				EB4D66A01DCC3EE700D01D7F /* UnitDescTableViewCell.xib in Resources */,
+				EB4D66551DCADECB00D01D7F /* Main.storyboard in Resources */,
+				EB4D66A21DCC478F00D01D7F /* Math-art.jpg in Resources */,
+				EB4D66AA1DCC4F4A00D01D7F /* milli_centi.jpg in Resources */,
+				EB4D66BA1DD5982700D01D7F /* MassConversion.plist in Resources */,
+				EB4D66AB1DCC4F4A00D01D7F /* temperature-clipart.jpg in Resources */,
+				EBD3A1C91DD691AE00E34701 /* GoogleService-Info.plist in Resources */,
+				EB4D66BE1DD5984100D01D7F /* AreaConversion.plist in Resources */,
+				EB4D66AC1DCC4F4A00D01D7F /* area-of-rectangle.png in Resources */,
+				EB4D66A81DCC4F4A00D01D7F /* measuring-cup.jpeg in Resources */,
+				EB4D66AE1DCC4FD000D01D7F /* Assets.xcassets in Resources */,
+				EB4D66B81DD5959900D01D7F /* VolumeConversion.plist in Resources */,
+				EB4D66881DCAE10400D01D7F /* Merkur.otf in Resources */,
+				EB4D66B21DCC54E200D01D7F /* UnitDefinitions.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4D665E1DCADECB00D01D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4D66691DCADECB00D01D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EAF2D78CD1A6DE1BBCA1B35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicMathUITests/Pods-MagicMathUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		373E446ACA49D03B22BA6F7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicMath/Pods-MagicMath-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69EE7BFF764AFC11F11D0CE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		728843A9ACCE18F91362BB6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicMathTests/Pods-MagicMathTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B38D43B347EFC799272A19FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF5EC81EADC47D4A49083F05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicMath/Pods-MagicMath-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1916FF389CD6940D1127B0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicMathUITests/Pods-MagicMathUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7613FF566C18D3C524B9BD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F80F542B0ADA13295E250986 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicMathTests/Pods-MagicMathTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4D66481DCADECB00D01D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4D669F1DCC3EE700D01D7F /* UnitDescTableViewCell.swift in Sources */,
+				EB4D66931DCB013F00D01D7F /* VolumeConverterClass.swift in Sources */,
+				EB4D668F1DCAF46D00D01D7F /* UnitsListViewController.swift in Sources */,
+				EB4D66991DCB017600D01D7F /* AreaConverterClass.swift in Sources */,
+				EB4D66971DCB016200D01D7F /* TemperatureConverterClass.swift in Sources */,
+				EB4D66911DCB012800D01D7F /* LengthConverterClass.swift in Sources */,
+				EB4D66951DCB015100D01D7F /* MassConverterClass.swift in Sources */,
+				EB4D668D1DCAF42D00D01D7F /* MathViewController.swift in Sources */,
+				EB4D66B61DCD45D000D01D7F /* MathAlert.swift in Sources */,
+				EB4D66501DCADECB00D01D7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4D665C1DCADECB00D01D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4D66651DCADECB00D01D7F /* MagicMathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4D66671DCADECB00D01D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4D66701DCADECB00D01D7F /* MagicMathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB4D66621DCADECB00D01D7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4D664B1DCADECB00D01D7F /* MagicMath */;
+			targetProxy = EB4D66611DCADECB00D01D7F /* PBXContainerItemProxy */;
+		};
+		EB4D666D1DCADECB00D01D7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4D664B1DCADECB00D01D7F /* MagicMath */;
+			targetProxy = EB4D666C1DCADECB00D01D7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB4D66531DCADECB00D01D7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4D66541DCADECB00D01D7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB4D66581DCADECB00D01D7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4D66591DCADECB00D01D7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB4D66721DCADECB00D01D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB4D66731DCADECB00D01D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB4D66751DCADECB00D01D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11D70230C384755054FF61F /* Pods-MagicMath.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YQ6FL9W5XL;
+				INFOPLIST_FILE = MagicMath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicmath.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "./MagicMath/MagicMath-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB4D66761DCADECB00D01D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F9D19E87E6C98C3681F3F1 /* Pods-MagicMath.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YQ6FL9W5XL;
+				INFOPLIST_FILE = MagicMath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicmath.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "./MagicMath/MagicMath-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EB4D66781DCADECB00D01D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DFE1A888EAC7D500C727233 /* Pods-MagicMathTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YQ6FL9W5XL;
+				INFOPLIST_FILE = MagicMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.MagicMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicMath.app/MagicMath";
+			};
+			name = Debug;
+		};
+		EB4D66791DCADECB00D01D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53406883CCF73D857D74080F /* Pods-MagicMathTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YQ6FL9W5XL;
+				INFOPLIST_FILE = MagicMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.MagicMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicMath.app/MagicMath";
+			};
+			name = Release;
+		};
+		EB4D667B1DCADECB00D01D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EB72301DBBBD0F32530E77 /* Pods-MagicMathUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YQ6FL9W5XL;
+				INFOPLIST_FILE = MagicMathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.MagicMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MagicMath;
+			};
+			name = Debug;
+		};
+		EB4D667C1DCADECB00D01D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43641007D8272DE96E5832C5 /* Pods-MagicMathUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YQ6FL9W5XL;
+				INFOPLIST_FILE = MagicMathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.MagicMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MagicMath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4D66471DCADECB00D01D7F /* Build configuration list for PBXProject "MagicMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4D66721DCADECB00D01D7F /* Debug */,
+				EB4D66731DCADECB00D01D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4D66741DCADECB00D01D7F /* Build configuration list for PBXNativeTarget "MagicMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4D66751DCADECB00D01D7F /* Debug */,
+				EB4D66761DCADECB00D01D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4D66771DCADECB00D01D7F /* Build configuration list for PBXNativeTarget "MagicMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4D66781DCADECB00D01D7F /* Debug */,
+				EB4D66791DCADECB00D01D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4D667A1DCADECB00D01D7F /* Build configuration list for PBXNativeTarget "MagicMathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4D667B1DCADECB00D01D7F /* Debug */,
+				EB4D667C1DCADECB00D01D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB4D66441DCADECB00D01D7F /* Project object */;
+}

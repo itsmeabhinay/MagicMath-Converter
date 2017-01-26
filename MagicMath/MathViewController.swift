@@ -10,6 +10,7 @@ import UIKit
 
 class MathViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource  {
     
+    // 3D Touch Capability Added
     // IBOutlets
     @IBOutlet var valueToBeConverted: UITextField!
     @IBOutlet var fromUnit: UITextField!
